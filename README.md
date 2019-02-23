@@ -24,3 +24,27 @@ Let's say there are 4 products in an online shop, an apple is 0.3$, a beer is 2$
 - Minimum (or zero) amount of static methods;
 - Encapsulation;
 - Existence of entities / models like ShoppingCart;
+
+## Installation
+
+Requirements
+------------
+These services are required for normal operation:
+* [php](https://secure.php.net/downloads.php) 7.2.2+
+* a webserver
+* [mysql](https://www.mysql.com/downloads/) 5.6 or compatible DBMS
+
+Installation
+------------
+1. Make sure the required services are up and running;
+2. Clone this repository and checkout needed branch;
+3. Create a dedicated clean MySQL (or compatible) database;
+4. Update config/connect.php file with DB information;
+5. import database.sql file to the database;
+6. Check if everything's up by visiting your page in the web browser, and you are done!
+
+Admin Login
+------------
+- http://your script url/admin
+- Username : admin@admin.com
+- Password : abc123
